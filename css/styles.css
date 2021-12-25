@@ -1,0 +1,159 @@
+
+* {
+    font-family: "Montserrat";
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+font-size: 3rem;
+list-style: 1.5;
+}
+
+#title {
+    background-color: #262A53;
+    color: #EEEEEE;
+    text-align: left;
+}
+
+
+
+.container-experience{
+    padding: 3% 15% 7%;
+}
+
+.container-title{
+    font-size: 3rem;
+}
+
+.li_item {
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+.li_item_content{
+    text-align: left;
+    font-size: 1.4rem;
+    text-indent: 3rem;
+}
+
+.container-contents{
+    padding: 10% 2%;
+    font-size: 1.6rem;
+}
+
+.container-portfolio{
+    padding: 3% 15% 7%;
+}
+
+h1 ,h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    transform: rotate(25deg);
+    width: 50%;
+    position: absolute;
+    right: 30%;
+}
+
+.project-description{
+    text-align:justify;
+    text-indent: 25px;
+    font-weight: normal;
+}
+
+.link_project{
+    text-align: center!important;
+}
+
+#portfolio {
+    background-color: #787A91;
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 150px;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+#pricing {
+    padding: 100px;
+
+
+}
+
+.price-text {
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+.card button {
+    width: 100%;
+}
+
+
+
+#contact {
+    background-color: #141E61;
+    padding: 7% 15%;
+    margin-bottom: 50px;
+}
+
+#contact h3{
+    color: #EEEEEE;
+}
+
+
+
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position:static;
+        transform: rotate(0);
+    }
+    
+}

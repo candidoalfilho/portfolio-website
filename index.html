@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Cândido's Portfolio</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/9432395556.js" crossorigin="anonymous"></script>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+  rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+<body>
+
+  <section id="title">
+
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">Cândido Alfredo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#academics">Academic Background</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Software Development Intern with strong back-end skills</h1>
+          <a href="https://www.linkedin.com/in/candidoalfredocl/"><button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-linkedin-in"></i>
+            LinkedIn</button></a>
+          
+          <a href="mailto:candidoalfilho@hotmail.com"><button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-envelope-open-text"></i>
+            Email</button></a>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/Python.png" alt="Python">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Experience -->
+  <div class="container-experience" id="experience">
+    <div class="container-title">Experience</div>
+    <div class="container-contents">
+      <ul>
+        <li class="li_item">Apr 2021- <br>
+          <strong>
+            Undergraduate Student Researcher at TAIL
+          </strong>
+          <div class="li_item_content">
+            TAIL is a Brazilian Artificial Inteligence League in which college students
+            gather to create incredible AI applications, I contributed in two projects
+            that involved technologies such as Python, React.JS, Firebase, Heroku et cetera.
+            These applications are detailed in my Portfolio section.
+          </div>
+        </li>
+        <li class="li_item">Jun 2021- <br>
+          <strong>
+            React.JS Developer Intern at ARIA
+          </strong>
+          <div class="li_item_content">
+            In this Internship, I have developed a React.JS project that generates
+            automatic Project Documents based on dynamic data that comes from a specific API.
+            This application is going to be used by several ARIA's clients, such as SEFAZ.
+          </div>
+        </li>
+        <li class="li_item">Aug 2021- <br>
+          <strong>
+            Back-end Developer Intern at ARIA
+          </strong>
+          <div class="li_item_content">
+            In this Internship, I have worked on the back-end of a complex AI project
+            that involved technologies such as Python, Flask, Docker and Git. This application
+            required strong skills on Mathematics and Statistics along with programming logic.
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+
+  <!-- Portfolio -->
+  
+
+  <div class="container-portfolio" id="portfolio">
+    <div class="container-title">Portfolio</div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Adivinh-IA</h2>
+          <h3 class="project-description">Adivinh-IA is a game built in a React.JS 
+            Front-End that displays images generated by a Python Notebook 
+            using VQGAN + Clip, the main goal of the player is to answer
+            which word generated a certain image in the Notebook.
+            <br>
+            <a class="link_project" href="http://adivinh-ia.herokuapp.com/">Try it out!</a>
+          </h3>
+          <img width="400px" src="images/adivinhia.jpeg">
+          <br>
+          <img class="testimonial-image" src="images/tail.png" alt="Tail">
+          <em>TAIL</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Data Science Notebook</h2>
+          <h3 class="project-description">This project is a Google Collaboratory Notebook that
+            teaches, using Python as the main technology, how to analyze Time Series with different
+            Statistics tools such as models like ARMA, ARIMA and SARIMA. 
+            <br>
+            <a class="link_project" href="https://colab.research.google.com/drive/1F6YrdHdhv1d0RTGYzOkjZFPyNnojmqwu">Check it out!</a>
+
+          </h3>
+          <img width="400px" src="images/notebook.jpeg">
+          <br>
+          <img class="testimonial-image" src="images/tail.png" alt="Tail">
+          <em>TAIL</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Automatic Project Documentation</h2>
+          <h3 class="project-description">This project is a React.JS application developed for Aria that gathers
+            information from an API response and formats automatically a Project Document. It has a 
+            dynamic structure and can be easily used in a myriad of projects.
+          </h3>
+          <img class="testimonial-image" src="images/aria.jpg" alt="Aria" style="width:85px">
+          <em>ARIA</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+
+
+  </div>
+
+
+  <!-- Academics -->
+  <div class="container-experience" id="academics">
+    <div class="container-title">Academic Background</div>
+    <div class="container-contents">
+      <p>Academic courses<br></p>
+      <ul>
+        <li class="li_item">May 2019-Dec 2023 <br>
+     
+            Civil Engineering - UFPB (Graduation)
+        
+        </li>
+        <li class="li_item">Jan 2020-Dec 2024 <br>
+          
+            Information Systems - FIAP (Graduation)
+        
+        </li>
+        <li class="li_item">Dec 2019-Oct 2020 <br>
+        
+            Real Estate Trading - UNEPI (Technical Course)
+        
+        </li>
+      </ul>
+      <p>Extra certifications<br></p>
+      <ul>
+        <li class="li_item">Mar 2021<br>
+          
+            Complete Java (Udemy)
+       
+        </li>
+        <li class="li_item">Feb 2021 <br>
+      
+            Complete Git (Udemy)
+      
+        </li>
+        <li class="li_item">Aug 2020 <br>
+      
+            Introduction To Python Language (UFPB)
+          
+        </li>
+        <li class="li_item">Aug 2020 <br>
+        
+            Introduction To LaTex Language (UFPB)
+     
+        </li>
+        <li class="li_item">Jul 2020 <br>
+      
+            After Effects & Premiere (FIAP)
+        
+        </li>
+      </ul>
+      <p>Skills<br></p>
+      <ul>
+        <li class="li_item">
+         
+            Python Programming
+       
+        </li>
+        <li class="li_item">
+       
+            Java Programming
+        
+        </li>
+        <li class="li_item">
+       
+          Knowledge on Front-End and Back-End technologies
+      
+      </li>
+        <li class="li_item">
+          
+            Advanced English Communication
+       
+        </li>
+        <li class="li_item">
+         
+            Strong Mathematical Background
+        
+        </li>
+
+      </ul>
+      
+    </div>
+  </div>
+
+
+  <!-- Contact -->
+
+    <section id="contact">
+
+      <h3>Contact me to develop the strong programming project you need.</h3>
+      <a href="https://www.linkedin.com/in/candidoalfredocl/"><button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-linkedin-in"></i>
+        LinkedIn</button></a>
+      
+      <a href="mailto:candidoalfilho@hotmail.com"><button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-envelope-open-text"></i>
+        Email</button></a>
+
+    </section>
+
+
+  <!-- Footer -->
+  <div class="container-fluid">
+    <footer id="footer">
+
+      <p>© Copyright 2021 Cândido Alfredo</p>
+
+    </footer>
+  </div>
+
+</body>
+
+</html>
