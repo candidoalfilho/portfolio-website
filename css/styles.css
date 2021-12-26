@@ -28,28 +28,9 @@ list-style: 1.5;
     padding: 3% 15% 7%;
 }
 
-.container-title{
-    font-size: 3rem;
-}
-
-.li_item {
-    text-align: left;
-    padding-bottom: 2rem;
-}
-
-.li_item_content{
-    text-align: left;
-    font-size: 1.4rem;
-    text-indent: 3rem;
-}
-
-.container-contents{
-    padding: 10% 2%;
-    font-size: 1.6rem;
-}
 
 .container-portfolio{
-    padding: 3% 15% 7%;
+    padding: 3% 2% 7%;
 }
 
 h1 ,h2, h3, h4, h5, h6 {
@@ -71,13 +52,8 @@ h1 ,h2, h3, h4, h5, h6 {
 }
 
 .nav-link {
-    font-size: 1.3rem;
+    font-size: 2.7rem;
     font-weight: 400;
-}
-
-
-.download-button {
-    margin: 5% 3% 5% 0;
 }
 
 .title-image {
@@ -87,11 +63,6 @@ h1 ,h2, h3, h4, h5, h6 {
     right: 30%;
 }
 
-.project-description{
-    text-align:left;
-    text-indent: 25px;
-    font-weight: normal;
-}
 
 .link_project{
     text-align: center!important;
@@ -102,11 +73,7 @@ h1 ,h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-.testimonial-text {
-    text-align:center;
-    font-size: 3rem;
-    line-height: 1.5;
-}
+
 
 .testimonial-image {
     width: 150px;
@@ -145,7 +112,9 @@ h1 ,h2, h3, h4, h5, h6 {
     color: #EEEEEE;
 }
 
-
+.navbar-toggler-icon {
+    padding: 45px!important
+}
 
 
 @media (max-width: 1028px) {
@@ -159,30 +128,112 @@ h1 ,h2, h3, h4, h5, h6 {
     
 }
 
-@media (max-width: 600px) {
-    
-    .download-button {
-        font-size: 34px;
-    }
-
-    .container-contents{
-        font-size: 2rem;
-    }
-
-    .testimonial-text {
-        font-size: 4rem!important;
-        line-height: 1.5;
-    }
-
-    .project-description {
-        text-align:left!important;
-    }
-
-    .container-title{
-        font-size: 4rem;
-    }
-
-    .li_item_content{
-        font-size: 2rem;
-    }
+.download-button {
+    margin: 5% 3% 5% 0;
+    font-size: 3.4rem;
 }
+
+.container-contents{
+    padding: 10% 2%;
+    font-size: 2rem;
+}
+
+.testimonial-text {
+    text-align:center;
+    font-size: 3.4rem;
+    line-height: 1.5;
+}
+
+.project-description { 
+    font-size:3rem;
+    text-align:left;
+    text-indent: 25px;
+    font-weight: normal;
+}
+
+.container-title{
+    font-size: 4rem;
+}
+
+.li_item {
+    text-align: left;
+    font-size:3rem;
+    padding-bottom: 2rem;
+}
+
+.li_item_content{
+    text-align: left;
+    font-size: 3rem;
+    text-indent: 3rem;
+}
+
+.org {
+    font-size: 2rem;
+}
+
+.container-contents p {
+    font-size:3rem;
+}
+
+footer p {
+    font-size:2.4rem;
+}
+
+#contact h3 {
+    font-size: 2.4rem;
+}
+
+@media only screen and (min-device-width: 700px) {
+
+    .navbar-toggler-icon {
+        padding: 25px!important
+    }
+.container-contents{
+    font-size: 1.6rem;
+}
+
+.testimonial-text {
+
+    font-size: 3rem;
+
+}
+
+.download-button {
+    font-size: 34px;
+}
+
+.container-title{
+    font-size: 3rem;
+}
+
+.li_item_content{
+    
+    font-size: 1.4rem;
+
+}
+
+.li_item {
+    font-size:2.2rem;
+
+}
+
+.project-description { 
+    font-size:2rem;
+}
+
+.container-contents p {
+    font-size:2.2rem;
+}
+
+footer p {
+    font-size:1.8rem;
+}
+
+.nav-link {
+    font-size: 2rem;
+    font-weight: 400;
+}
+}
+
+    
+    
