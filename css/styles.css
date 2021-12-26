@@ -88,7 +88,7 @@ h1 ,h2, h3, h4, h5, h6 {
 }
 
 .project-description{
-    text-align:justify;
+    text-align:left;
     text-indent: 25px;
     font-weight: normal;
 }
@@ -103,6 +103,7 @@ h1 ,h2, h3, h4, h5, h6 {
 }
 
 .testimonial-text {
+    text-align:center;
     font-size: 3rem;
     line-height: 1.5;
 }
@@ -156,4 +157,32 @@ h1 ,h2, h3, h4, h5, h6 {
         transform: rotate(0);
     }
     
+}
+
+@media (max-width: 600px) {
+    
+    .download-button {
+        font-size: 34px;
+    }
+
+    .container-contents{
+        font-size: 2rem;
+    }
+
+    .testimonial-text {
+        font-size: 4rem!important;
+        line-height: 1.5;
+    }
+
+    .project-description {
+        text-align:left!important;
+    }
+
+    .container-title{
+        font-size: 4rem;
+    }
+
+    .li_item_content{
+        font-size: 2rem;
+    }
 }
