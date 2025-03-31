@@ -3,35 +3,25 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cândido's Portfolio</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="images/Flutter.png"/>
 </head>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/9432395556.js" crossorigin="anonymous"></script>
-
-<link
-  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
-  rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
-<link rel="icon" type="image/png" href="images/icon.jpg"/>
-
 <body>
+  <!-- Particle background -->
+  <div id="particles-js"></div>
 
   <section id="title">
-
     <div class="container-fluid">
       <!-- Nav Bar -->
-
       <nav class="navbar navbar-expand-lg navbar-dark">
-
         <a class="navbar-brand" href="">Cândido Alfredo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,139 +40,150 @@
               <a class="nav-link" href="#academics">Academic Background</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
 
-
       <!-- Title -->
       <div class="row">
         <div class="col-lg-6">
-          <h1 class="big-heading">Software Developer with strong back-end skills</h1>
-          <a href="https://www.linkedin.com/in/candidoalfredocl/"><button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-linkedin-in"></i>
-            LinkedIn</button></a>
-          
-          <a href="mailto:candidoalfilho@hotmail.com"><button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-envelope-open-text"></i>
-            Email</button></a>
+          <h1 class="big-heading typing-effect">Software Engineer</h1>
+          <div class="code-block">
+            <span class="glow">const</span> developer = {
+            <br>&nbsp;&nbsp;name: <span class="glow">"Cândido Alfredo"</span>,
+            <br>&nbsp;&nbsp;languages: [<span class="glow">"Portuguese"</span>, <span class="glow">"English"</span>, <span class="glow">"German (Basic)"</span>],
+            <br>&nbsp;&nbsp;location: <span class="glow">"Brazil"</span>
+            <br>};
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/candidoalfredocl/" target="_blank"><button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-linkedin-in"></i>
+              LinkedIn</button></a>
+            <a href="https://github.com/candidoalfilho" target="_blank"><button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-github"></i>
+              GitHub</button></a>
+            <a href="mailto:candidoalfilho@hotmail.com"><button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-envelope-open-text"></i>
+              Email</button></a>
+          </div>
         </div>
         <div class="col-lg-6">
-          <img class="title-image" src="images/Python.png" alt="Python">
+          <img class="title-image" src="images/Flutter.png" alt="Flutter">
         </div>
       </div>
     </div>
   </section>
 
-
-
   <!-- Experience -->
   <div class="container-experience" id="experience">
-    <div class="container-title">Experience</div>
+    <div class="container-title glow">Experience</div>
     <div class="container-contents">
-      <ul>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">Aug 2024 - Present</div>
+          <div class="timeline-title">Software Engineer - iGlu [São Paulo - BR]</div>
+          <div class="timeline-content">
+            At iGlu, a Brazilian startup offering an omnichannel platform for POS, I work on developing a new mobile application using Flutter, created to replace the legacy platform. My role included the complete migration from the old system to the new one, having led the replacement across all 57 partner stores, ensuring an efficient and problem-free transition. Additionally, I provide ongoing support to the Elixir backend when needed and collaborate with various teams to implement features that drive growth and improve sales conversion in retail.
+          </div>
+        </div>
 
-        <li class="li_item">Jan 2024 - <br>
-          <strong>
-            Jr. Project Analyst - Nova Transportadora do Sudeste 
-          </strong>
-          <div class="li_item_content">
-            As a Project Analyst at Nova Transportadora do Sudeste, I am working in the Planning and Scheduling sector. My work consists on the viability of the transportation of natural gas through more than 2,000 km of gas pipelines through data analysis, material mechanics and commercial operations.
+        <div class="timeline-item">
+          <div class="timeline-date">Jan 2024 - Aug 2024</div>
+          <div class="timeline-title">Project Analyst - Nova Transportadora do Sudeste [Rio de Janeiro - BR]</div>
+          <div class="timeline-content">
+            At Nova Transportadora do Sudeste, I worked as a Project Analyst in the Planning and Scheduling sector. My work consisted of operationalizing the transportation of natural gas through more than 2,000 km of gas pipelines by combining data analysis and routine automation with Python and Excel. In this experience, I reduced the time to query corporate data by more than 90% by replacing Excel connections with Python APIs and actively participated in the company's Data Science initiatives.
           </div>
-        </li>
-        
-        <li class="li_item">Mar 2022 - Oct 2023 <br>
-          <strong>
-            Software Engineer Intern - DHAUZ 
-          </strong>
-          <div class="li_item_content">
-            At DHAUZ, I worked on the Software Development Team on both Front and Back-end using the ABP Framework (based on
-the ASP.NET Core platform). My internship consisted of creating two Software as a Service platforms for AI products, which
-involved building the projects’ service infrastructure and processing data for statistical modeling.
-          </div>
-        </li>
+        </div>
 
-        <li class="li_item">Jun 2021 - Nov 2022 <br>
-          <strong>
-            Software Engineering Intern - ARIA
-          </strong>
-          <div class="li_item_content">
-            At ARIA, I worked on the Front and Back-End of an integrated data platform for the Para ́ıba Department of Finance, which
-processes financial data from hundreds of thousands of companies in the state of Para ́ıba in real time. My work involved the
-statistical analysis of the companies’ financial health and allowed the detection of fraud in corporations in periods of less than
-1 minute.
+        <div class="timeline-item">
+          <div class="timeline-date">Dec 2023 - Mar 2024</div>
+          <div class="timeline-title">Research Fellow - FIOCRUZ [Rio de Janeiro - BR]</div>
+          <div class="timeline-content">
+            Research fellowship from the prestigious Oswaldo Cruz Foundation (Fiocruz), a leading institution in science, technology, and health innovation in Latin America. In my role as a Software Engineer, I actively contributed to building the software solution infrastructure, using the ABP Framework (based on the ASP.NET Core platform) as the main technology. This technical involvement empowered health managers with easy-to-use tools, incorporating predictive models and algorithms.
           </div>
-        </li>
-        <li class="li_item">Apr 2021 - Dec 2023 <br>
-          <strong>
-            Undergraduate Student Researcher / Director / Vice-President - TAIL
-          </strong>
-          <div class="li_item_content">
-            TAIL is the Technology and Artificial Intelligence League, an academic league that is oriented by ARIA’s professors and focuses on gathering undergraduate students that want to develop AI applications. I worked as an undergraduate student researcher on two of the league’s AI projects on 2021, worked as the Director of the Trainees Board on 2022 and worked as the Director of the Aplication Board and Vice-President on 2023.
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Mar 2022 - Oct 2023</div>
+          <div class="timeline-title">Software Engineering Intern - DHAUZ [Belo Horizonte - BR]</div>
+          <div class="timeline-content">
+            At DHAUZ, I worked on the Software Development Team on both Front and Back-end using the ABP Framework. My internship consisted of creating two Software as a Service platforms for AI products, which involved building the projects' service infrastructure and processing data for statistical modeling. This experience enhanced my skills in designing multi-tenant applications with Domain Driven Design, while developing cutting-edge SaaS technologies for different sectors.
           </div>
-        </li>
-      </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Jun 2021 - Nov 2022</div>
+          <div class="timeline-title">Software Engineering Intern - ARIA [João Pessoa - BR]</div>
+          <div class="timeline-content">
+            At ARIA, I worked on the Front and Back-End of an integrated data platform for the Paraíba Department of Finance, which processes financial data from hundreds of thousands of companies in the state in real time. My work involved the statistical analysis of companies' fiscal standing and allowed the detection of fraud in corporations in periods of less than 1 minute.
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  
 
   <!-- Portfolio -->
- 
-
   <div class="container-portfolio" id="portfolio">
-    <div class="container-title">Portfolio</div>
+    <div class="container-title glow">Portfolio</div>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active container-fluid">
-          <h2 class="testimonial-text">Adivinh-IA</h2>
-          <h3 class="project-description">Adivinh-IA is a game built in a React.JS 
-            Front-End that displays images generated by a Python Notebook 
-            using VQGAN + Clip, the main goal of the player is to answer
-            which word generated a certain image in the Notebook.
+          <div class="project-card">
+            <h2 class="testimonial-text">Adivinh-IA</h2>
+            <h3 class="project-description">Adivinh-IA is a game built in a React.JS 
+              Front-End that displays images generated by a Python Notebook 
+              using VQGAN + Clip, the main goal of the player is to answer
+              which word generated a certain image in the Notebook.
+              <br>
+              <a class="link_project" href="http://adivinh-ia.herokuapp.com/">Try it out!</a>
+            </h3>
+            <img width="400px" src="images/adivinhia.jpeg" class="project-image">
             <br>
-            <a class="link_project" href="http://adivinh-ia.herokuapp.com/">Try it out!</a>
-          </h3>
-          <img width="400px" src="images/adivinhia.jpeg">
-          <br>
-          <img class="testimonial-image" src="images/tail.png" alt="Tail">
-          <em class="org">TAIL</em>
+            <img class="testimonial-image" src="images/tail.png" alt="Tail">
+            <em class="org">TAIL</em>
+          </div>
         </div>
 
         <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">Play Store Apps</h2>
-          <h3 class="project-description">I published two Android Apps on the Play Store
-            using the Dart language along with the Flutter Framework.
-            <br>
-            <a class="link_project" href="https://play.google.com/store/apps/developer?id=C%C3%A2ndido+Lucena">Check it out!</a>
-          </h3>
-          <img width="400px" src="images/apps-playstore.png">
-          <br>
-          
+          <div class="project-card">
+            <h2 class="testimonial-text">Play Store Apps</h2>
+            <h3 class="project-description">I published two Android Apps on the Play Store
+              using the Dart language along with the Flutter Framework.
+              <br>
+              <a class="link_project" href="https://play.google.com/store/apps/developer?id=C%C3%A2ndido+Lucena">Check it out!</a>
+            </h3>
+            <img width="400px" src="images/apps-playstore.png" class="project-image">
+          </div>
         </div>
 
         <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">Time Series Models Notebook</h2>
-          <h3 class="project-description">This project is a Google Collaboratory Notebook that
-            teaches, using Python as the main technology, how to analyze Time Series with different
-            Statistics tools such as models like ARMA, ARIMA and SARIMA. 
+          <div class="project-card">
+            <h2 class="testimonial-text">Time Series Models Notebook</h2>
+            <h3 class="project-description">This project is a Google Collaboratory Notebook that
+              teaches, using Python as the main technology, how to analyze Time Series with different
+              Statistics tools such as models like ARMA, ARIMA and SARIMA. 
+              <br>
+              <a class="link_project" href="https://colab.research.google.com/drive/1F6YrdHdhv1d0RTGYzOkjZFPyNnojmqwu">Check it out!</a>
+            </h3>
+            <img width="400px" src="images/notebook.jpeg" class="project-image">
             <br>
-            <a class="link_project" href="https://colab.research.google.com/drive/1F6YrdHdhv1d0RTGYzOkjZFPyNnojmqwu">Check it out!</a>
-
-          </h3>
-          <img width="400px" src="images/notebook.jpeg">
-          <br>
-          <img class="testimonial-image" src="images/tail.png" alt="Tail">
-          <em class="org">TAIL</em>
+            <img class="testimonial-image" src="images/tail.png" alt="Tail">
+            <em class="org">TAIL</em>
+          </div>
         </div>
 
         <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">Automatic Project Documentation</h2>
-          <h3 class="project-description">This project is a React.JS application developed for Aria that gathers
-            information from an API response and formats automatically a Project Document. It has a 
-            dynamic structure and can be easily used in a myriad of projects.
-          </h3>
-          <img class="testimonial-image" src="images/aria.jpg" alt="Aria" style="width:85px">
-          <em class="org">ARIA</em>
+          <div class="project-card">
+            <h2 class="testimonial-text">Automatic Project Documentation</h2>
+            <h3 class="project-description">This project is a React.JS application developed for Aria that gathers
+              information from an API response and formats automatically a Project Document. It has a 
+              dynamic structure and can be easily used in a myriad of projects.
+            </h3>
+            <img class="testimonial-image" src="images/aria.jpg" alt="Aria" style="width:85px">
+            <em class="org">ARIA</em>
+          </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -194,128 +195,223 @@ statistical analysis of the companies’ financial health and allowed the detect
         <span class="sr-only">Next</span>
       </a>
     </div>
-
-
-
-
-
   </div>
 
-
-  <!-- Academics -->
+  <!-- Academic Background -->
   <div class="container-experience" id="academics">
-    <div class="container-title">Academic Background</div>
+    <div class="container-title glow">Academic Background</div>
     <div class="container-contents">
-      <hr>
-      <p>Academic courses<br></p>
-      <ul>
-        <li class="li_item">Apr 2024 - Feb 2026 <br>
-          MBA in Data Science and Analytics - Universidade de São Paulo
-      </li>
-        <li class="li_item">Jan 2020 - Dec 2024 <br>
-          Bachelor of Science in Information Systems - FIAP
-      </li>
-        <li class="li_item">May 2019 - Dec 2023 <br>
-     
-            Bachelor of Engineering in Civil Engineering - UFPB 
-        </li>
-    
-      </ul>
-      <hr>
-      <p>Extra certifications<br></p>
-      <ul>
-        <li class="li_item">
-          
-          The Complete Python Pro Bootcamp (Udemy)
-     
-        </li>
-      
-        <li class="li_item">
-          
-          Complete Java (Udemy)
-     
-        </li>
+      <div class="terminal">
+        <div class="timeline-item">
+          <div class="timeline-date">Apr 2024 - Feb 2026</div>
+          <div class="timeline-title">MBA in Data Science and Analytics - University of São Paulo</div>
+        </div>
 
-        <li class="li_item">
-      
-            Complete Git (Udemy)
-      
-        </li>
-        <li class="li_item">
-      
-            Introduction To Python Language (UFPB)
-          
-        </li>
-        
-      </ul>
-      <hr>
-      <p>Skills<br></p>
-      <ul>
-        <li class="li_item">
-         
-          Python Programming
-       
-        </li>
-        <li class="li_item">
-         
-          .NET Development
+        <div class="timeline-item">
+          <div class="timeline-date">Feb 2020 - Nov 2024</div>
+          <div class="timeline-title">Bachelor's in Information Systems - FIAP</div>
+        </div>
 
-        </li>
-        <li class="li_item">
-       
-          Java Programming
-        
-        </li>
-        <li class="li_item">
-       
-          Experience with Front-End technologies and frameworks
-      
-        </li>
-        <li class="li_item">
-          
-            Advanced English Communication
-       
-        </li>
-        <li class="li_item">
-         
-            Strong Mathematical Background
-        
-        </li>
+        <div class="timeline-item">
+          <div class="timeline-date">May 2019 - Nov 2023</div>
+          <div class="timeline-title">Bachelor's in Civil Engineering - Federal University of Paraíba</div>
+        </div>
+      </div>
 
-      </ul>
-      
+      <div class="container-title">Extracurricular Activities</div>
+      <div class="timeline-item">
+        <div class="timeline-date">Apr 2021 - Dec 2023</div>
+        <div class="timeline-title">Researcher, Director and Vice-President - TAIL</div>
+        <div class="timeline-content">
+          TAIL (Technology and Artificial Intelligence League) is an academic league guided by professors from the ARIA laboratory that focuses on bringing undergraduate students to create Artificial Intelligence applications. I worked as a researcher on two TAIL projects in 2021 and guided the Trainees and Application board in 2022 and 2023. In the second semester of 2023, I served as the Vice-President of the league.
+        </div>
+      </div>
+
+      <div class="container-title">Awards and Recognition</div>
+      <div class="timeline-item">
+        <div class="timeline-date">Sep 2024 - Present</div>
+        <div class="timeline-title">Member - ProLíder</div>
+        <div class="timeline-content">
+          ProLíder is Brazil's main youth leadership program, bringing together young people to address the country's biggest challenges with leaders in entrepreneurship, public policy, and social impact.
+        </div>
+      </div>
     </div>
   </div>
 
+  <!-- Skills Section -->
+  <div class="container-experience" id="skills">
+    <div class="container-title glow">Skills</div>
+    <div class="container-contents">
+      <div class="code-block">
+        <span class="glow">const</span> technicalSkills = [
+        <div class="skills-container">
+          <div class="skill-tag">Python</div>
+          <div class="skill-tag">Flutter</div>
+          <div class="skill-tag">Dart</div>
+          <div class="skill-tag">React.js</div>
+          <div class="skill-tag">ASP.NET Core</div>
+          <div class="skill-tag">Elixir</div>
+          <div class="skill-tag">Data Analysis</div>
+          <div class="skill-tag">Statistical Modeling</div>
+          <div class="skill-tag">Time Series</div>
+          <div class="skill-tag">Domain Driven Design</div>
+          <div class="skill-tag">SaaS</div>
+          <div class="skill-tag">Excel</div>
+        </div>
+        ];
+      </div>
 
-  <!-- Contact -->
-
-    <section id="contact">
-
-      <h3>Contact me to develop the strong programming project you need.</h3>
-      <a href="https://www.linkedin.com/in/candidoalfredocl/"><button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-linkedin-in"></i>
-        LinkedIn</button></a>
-      
-      <a href="mailto:candidoalfilho@hotmail.com"><button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-envelope-open-text"></i>
-        Email</button></a>
-
-    </section>
-
-
-  <!-- Footer -->
-  <div class="container-fluid">
-    <footer id="footer">
-
-      <p>© Copyright <span id="spanDate"></span> Cândido Alfredo</p>
-
-    </footer>
+      <div class="code-block">
+        <span class="glow">const</span> languages = [
+        <div class="skills-container">
+          <div class="skill-tag">Portuguese (Native)</div>
+          <div class="skill-tag">English (Fluent)</div>
+          <div class="skill-tag">German (Basic)</div>
+        </div>
+        ];
+      </div>
+    </div>
   </div>
 
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container-title glow">Contact</div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/candidoalfredocl/" target="_blank"><i class="fab fa-linkedin social-icon"></i></a>
+          <a href="https://github.com/candidoalfilho" target="_blank"><i class="fab fa-github social-icon"></i></a>
+          <a href="mailto:candidoalfilho@hotmail.com"><i class="fas fa-envelope social-icon"></i></a>
+          <a href="tel:+5583999862738"><i class="fas fa-phone social-icon"></i></a>
+        </div>
+        <h3>+55 83 99986-2738 | candidoalfilho@hotmail.com</h3>
+        <h3><a href="https://candidoalfilho.github.io/portfolio-website/" class="link_project">candidoalfilho.github.io/portfolio-website/</a></h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p> 2025 Cândido Alfredo</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/9432395556.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      particlesJS("particles-js", {
+        "particles": {
+          "number": {
+            "value": 80,
+            "density": {
+              "enable": true,
+              "value_area": 800
+            }
+          },
+          "color": {
+            "value": "#64ffda"
+          },
+          "shape": {
+            "type": "circle",
+            "stroke": {
+              "width": 0,
+              "color": "#000000"
+            },
+            "polygon": {
+              "nb_sides": 5
+            }
+          },
+          "opacity": {
+            "value": 0.5,
+            "random": false,
+            "anim": {
+              "enable": false,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#64ffda",
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 2,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": false,
+              "rotateX": 600,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": true,
+              "mode": "grab"
+            },
+            "onclick": {
+              "enable": true,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 140,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 200,
+              "duration": 0.4
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": true
+      });
+    });
+  </script>
 </body>
 
 </html>
-
-<script>
-  var today = new Date();
-  document.getElementById("spanDate").innerHTML = today.getFullYear();
-</script>
